@@ -5,6 +5,21 @@ NAME = {
     'bracelet': '手镯'
 }
 
+LEVEL_DICT = {
+    1: 60,
+    2: 80,
+    3: 100,
+    4: 120,
+    5: 140,
+    6: 160
+}
+TYPE_DICT = {
+    1: 'ring',
+    2: 'earring',
+    3: 'accessory',
+    4: 'bracelet'
+}
+
 LEVEL_POOL = [60, 80, 100, 120, 140, 160]
 
 PIC_DIC = {
@@ -114,6 +129,6 @@ ADDITION_PROP_VAL = [
 
 SPECIAL_EFFECT = ['超级简易']
 
-P_SPECIAL_EFFECT = 0.05
+P_SPECIAL_EFFECT = 0.005
 P_ADD_3 = 0.3
 NORMAL_SCALE_FACTOR = 0.2

@@ -17,8 +17,7 @@ def uniform(low, high):
 def normal(low, high):
     scale = low * NORMAL_SCALE_FACTOR
     val = np.random.normal(loc=low, scale=scale)
-    if val < low:
-        val = low
-    elif val > high:
+    val = abs(val - low) + low
+    if val > high:
         val = high
     return int(val)

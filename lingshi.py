@@ -26,6 +26,16 @@ class lingshi_base(object):
             print(f'特效: {self.special_effect}')
         for i in range(len(self.addition_prop)):
             print(self.addition_prop[i])
+    
+    def print_ui(self):
+        aut_str = f"{self.name}\n{NAME[self.type]} 等级: {self.level}\n{self.main_prop} +{self.main_val}\n"
+        if self.special_effect is not None:
+            aut_str += f"特效: {self.special_effect}\n"
+        else:
+            aut_str += '\n'
+        for i in range(len(self.addition_prop)):
+            aut_str += f"{self.addition_prop[i][0]} +{self.addition_prop[i][1]}\n"
+        return aut_str[:-1]
 
 
 class ring(lingshi_base):
@@ -50,8 +60,3 @@ class bracelet(lingshi_base):
     def __init__(self, level):
         assert level in LEVEL_POOL
         super().__init__(level, type='bracelet')
-
-if __name__ == "__main__":
-    r = ring(140)
-    r.authenticate()
-    r.print()
