@@ -13,6 +13,7 @@ class lingshi_base(object):
         self.main_val = 0
         self.addition_prop = []
         self.special_effect = None
+        self.cost = COST[self.type][self.level]
 
     def authenticate(self):
         self.special_effect = generate_special_effect()
