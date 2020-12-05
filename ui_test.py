@@ -11,7 +11,7 @@ if __name__ == '__main__':
         ui = Ui_main.Ui_MainWindow()
         ui.setupUi(MainWindow)
         MainWindow.setWindowIcon(QtGui.QIcon('img/logo.ico'))
-        MainWindow.setWindowTitle('穷人追梦')
+        MainWindow.setWindowTitle('穷人追梦：赌狗争霸')
         MainWindow.show()
         print('running...')
         sys.exit(app.exec_())
