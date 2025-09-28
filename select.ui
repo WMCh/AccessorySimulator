@@ -29,7 +29,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_60.png</pixmap>
+    <pixmap>img/xyq_gifs/27001.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_1_1">
@@ -74,7 +74,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_60.png</pixmap>
+    <pixmap>img/xyq_gifs/27101.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_3_1">
@@ -93,7 +93,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_60.png</pixmap>
+    <pixmap>img/xyq_gifs/27301.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_1">
@@ -138,7 +138,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_60.png</pixmap>
+    <pixmap>img/xyq_gifs/27201.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_3_2">
@@ -157,7 +157,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_80.png</pixmap>
+    <pixmap>img/xyq_gifs/27302.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_2">
@@ -202,7 +202,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_80.png</pixmap>
+    <pixmap>img/xyq_gifs/27202.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_1_2">
@@ -221,7 +221,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_80.png</pixmap>
+    <pixmap>img/xyq_gifs/27002.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_2_2">
@@ -253,7 +253,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_80.png</pixmap>
+    <pixmap>img/xyq_gifs/27102.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_1_2">
@@ -285,7 +285,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_100.png</pixmap>
+    <pixmap>img/xyq_gifs/27303.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_3">
@@ -343,7 +343,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_100.png</pixmap>
+    <pixmap>img/xyq_gifs/27203.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_2_3">
@@ -362,7 +362,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_100.png</pixmap>
+    <pixmap>img/xyq_gifs/27103.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_1_3">
@@ -381,7 +381,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_100.png</pixmap>
+    <pixmap>img/xyq_gifs/27003.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_1_4">
@@ -400,7 +400,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_120.png</pixmap>
+    <pixmap>img/xyq_gifs/27004.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_2_4">
@@ -432,7 +432,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_120.png</pixmap>
+    <pixmap>img/xyq_gifs/27304.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_4_4">
@@ -451,7 +451,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_120.png</pixmap>
+    <pixmap>img/xyq_gifs/27204.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_4">
@@ -496,7 +496,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_120.png</pixmap>
+    <pixmap>img/xyq_gifs/27104.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_4_4">
@@ -541,7 +541,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_140.png</pixmap>
+    <pixmap>img/xyq_gifs/27305.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_5">
@@ -599,7 +599,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_140.png</pixmap>
+    <pixmap>img/xyq_gifs/27205.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_2_5">
@@ -618,7 +618,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_140.png</pixmap>
+    <pixmap>img/xyq_gifs/27105.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_1_5">
@@ -637,7 +637,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_140.png</pixmap>
+    <pixmap>img/xyq_gifs/27005.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_1_6">
@@ -656,7 +656,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/ring_160.png</pixmap>
+    <pixmap>img/xyq_gifs/27006.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_2_6">
@@ -688,7 +688,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/accessory_160.png</pixmap>
+    <pixmap>img/xyq_gifs/27306.gif</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="l_img_4_6">
@@ -707,7 +707,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/bracelet_160.png</pixmap>
+    <pixmap>img/xyq_gifs/27206.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_3_6">
@@ -752,7 +752,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>img/png_100/earring_160.png</pixmap>
+    <pixmap>img/xyq_gifs/27106.gif</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="b_buy_4_6">
