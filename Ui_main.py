@@ -535,11 +535,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_1_1.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_1_1.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_1_1.setInfo(type, level)
             self.l_aut_1_1.setEnabled(True)
             self.l_aut_1_1.setAlignment(QtCore.Qt.AlignLeft)
@@ -554,11 +554,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_1_2.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_1_2.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_1_2.setInfo(type, level)
             self.l_aut_1_2.setEnabled(True)
             self.l_aut_1_2.setAlignment(QtCore.Qt.AlignLeft)
@@ -573,11 +573,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_1_3.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_1_3.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_1_3.setInfo(type, level)
             self.l_aut_1_3.setEnabled(True)
             self.l_aut_1_3.setAlignment(QtCore.Qt.AlignLeft)
@@ -592,11 +592,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_1_4.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_1_4.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_1_4.setInfo(type, level)
             self.l_aut_1_4.setEnabled(True)
             self.l_aut_1_4.setAlignment(QtCore.Qt.AlignLeft)
@@ -611,11 +611,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_1_5.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_1_5.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_1_5.setInfo(type, level)
             self.l_aut_1_5.setEnabled(True)
             self.l_aut_1_5.setAlignment(QtCore.Qt.AlignLeft)
@@ -630,11 +630,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_2_1.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_2_1.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_2_1.setInfo(type, level)
             self.l_aut_2_1.setEnabled(True)
             self.l_aut_2_1.setAlignment(QtCore.Qt.AlignLeft)
@@ -649,11 +649,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_2_2.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_2_2.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_2_2.setInfo(type, level)
             self.l_aut_2_2.setEnabled(True)
             self.l_aut_2_2.setAlignment(QtCore.Qt.AlignLeft)
@@ -668,11 +668,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_2_3.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_2_3.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_2_3.setInfo(type, level)
             self.l_aut_2_3.setEnabled(True)
             self.l_aut_2_3.setAlignment(QtCore.Qt.AlignLeft)
@@ -687,11 +687,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_2_4.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_2_4.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_2_4.setInfo(type, level)
             self.l_aut_2_4.setEnabled(True)
             self.l_aut_2_4.setAlignment(QtCore.Qt.AlignLeft)
@@ -706,11 +706,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_2_5.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_2_5.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_2_5.setInfo(type, level)
             self.l_aut_2_5.setEnabled(True)
             self.l_aut_2_5.setAlignment(QtCore.Qt.AlignLeft)
@@ -725,11 +725,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_3_1.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_3_1.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_3_1.setInfo(type, level)
             self.l_aut_3_1.setEnabled(True)
             self.l_aut_3_1.setAlignment(QtCore.Qt.AlignLeft)
@@ -744,11 +744,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_3_2.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_3_2.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_3_2.setInfo(type, level)
             self.l_aut_3_2.setEnabled(True)
             self.l_aut_3_2.setAlignment(QtCore.Qt.AlignLeft)
@@ -763,11 +763,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_3_3.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_3_3.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_3_3.setInfo(type, level)
             self.l_aut_3_3.setEnabled(True)
             self.l_aut_3_3.setAlignment(QtCore.Qt.AlignLeft)
@@ -782,11 +782,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_3_4.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_3_4.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_3_4.setInfo(type, level)
             self.l_aut_3_4.setEnabled(True)
             self.l_aut_3_4.setAlignment(QtCore.Qt.AlignLeft)
@@ -801,11 +801,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_3_5.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_3_5.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_3_5.setInfo(type, level)
             self.l_aut_3_5.setEnabled(True)
             self.l_aut_3_5.setAlignment(QtCore.Qt.AlignLeft)
@@ -820,11 +820,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_4_1.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_4_1.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_4_1.setInfo(type, level)
             self.l_aut_4_1.setEnabled(True)
             self.l_aut_4_1.setAlignment(QtCore.Qt.AlignLeft)
@@ -839,11 +839,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_4_2.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_4_2.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_4_2.setInfo(type, level)
             self.l_aut_4_2.setEnabled(True)
             self.l_aut_4_2.setAlignment(QtCore.Qt.AlignLeft)
@@ -858,11 +858,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_4_3.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_4_3.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_4_3.setInfo(type, level)
             self.l_aut_4_3.setEnabled(True)
             self.l_aut_4_3.setAlignment(QtCore.Qt.AlignLeft)
@@ -877,11 +877,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_4_4.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_4_4.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_4_4.setInfo(type, level)
             self.l_aut_4_4.setEnabled(True)
             self.l_aut_4_4.setAlignment(QtCore.Qt.AlignLeft)
@@ -896,11 +896,11 @@ class Ui_MainWindow(object):
         dialog.setWindowIcon(QtGui.QIcon('img/logo.ico'))
         dialog.show()
         dialog.exec_()
-        type, level, cost = dialog.getInfo()
+        type_id, type, level, cost = dialog.getInfo()
         if type is not None:
             self.cost += cost
             self.l_cost.setText(QtCore.QCoreApplication.translate("MainWindow", f"总成本: {self.cost}元"))
-            self.l_img_4_5.setPixmap(QtGui.QPixmap(f"img/png_100/{type}_{level}.png"))
+            self.l_img_4_5.setPixmap(QtGui.QPixmap(f"img/xyq_gifs/27{type_id}0{level//20-2}.gif").scaled(100, 100))
             self.l_img_4_5.setInfo(type, level)
             self.l_aut_4_5.setEnabled(True)
             self.l_aut_4_5.setAlignment(QtCore.Qt.AlignLeft)
